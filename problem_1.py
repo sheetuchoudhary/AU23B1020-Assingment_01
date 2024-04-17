@@ -23,7 +23,6 @@ def get_tshirt(brand_name):
     else:
         print("Hi",User_name, "Unfortunately the brand you are looking for is not available in our store ")
 #taking brand name to be search 
-brand_name = input('Search for Brand : ')
+b_name = input('Search for Brand : ')
 #calling function name get_tshirt
-get_tshirt(brand_name)
-
+get_tshirt(b_name)
