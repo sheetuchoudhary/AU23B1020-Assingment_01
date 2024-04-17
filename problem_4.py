@@ -28,9 +28,17 @@ def add_topping(scoop_size,toppings):
     
     print("Nice Selection !!\nyour selection is here --")
     print('scoop size : ',size)
-    print(toppings)
+    print('you choosed : ',toppings)
 
   
 scoop_size = input('1.small\n2.large\nscoop size :')
 toppings =[]
 add_topping(scoop_size,toppings)
+
+def make_shake(choice):
+    if choice=='1' or choice == 'nuts':
+        print('your shake selection is of : Nuts')
+    else :
+        print('your shake selection is of : Fruits')
+choice = input("\n1.Nuts\n2.Fruits\nselect your shake")
+make_shake(choice)
