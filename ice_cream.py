@@ -5,11 +5,11 @@ Program for Problem_4
 #defining a function with two parameters
 def add_topping(scoop_size,toppings): 
 
-    print("select different items !!")
+    print("select any three different items !!")
     print("1.Sprinkles\n2.Hot fudge\n3.Whipped cream\n4.Crushed nuts\nMake Your Choice !!") 
     n=1
     #to form user selection list for making ice_cream
-    while (n<5):
+    while (n<4):
         t= input('selected item : ')
         if t =='1':
             toppings.append('Sprinkles')   
@@ -23,7 +23,7 @@ def add_topping(scoop_size,toppings):
     
     print("Nice Selection !!\nyour selection is here --")
     #the list of user choice for ice_cream is here!!!
-    print('1.small\n2.large\nscoop size :',scoop_size)
+    print('\nscoop size :',scoop_size)
     print('you choosed : ',toppings)
 
   
@@ -35,6 +35,5 @@ def make_shake(choice):
         print('your shake selection is of : Nuts')
     else :
         print('your shake selection is of : Fruits')
-    print("\n1.Nuts\n2.Fruits\nselect your shake : ")
 
 

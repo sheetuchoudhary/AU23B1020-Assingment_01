@@ -41,7 +41,7 @@ def get_tshirt(brand_name,size = None):
             else:     
                 print("Hi",User_name, "Unfortunately the ",brand_name," brand you are looking for is not available in our store ")
 
-#taking brand name and size as optional to be search 
+#taking brand name to be search 
 b_name = input('Search for Brand : ')
 b_size = input("Size (Optional) : " )
 #calling function name get_tshirt

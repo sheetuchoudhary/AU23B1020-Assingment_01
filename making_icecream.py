@@ -14,8 +14,8 @@ ice_cream.make_shake(c)
 
 
 
-print('ice cream without shake ')
+print('\nice cream without shake ')
 #using only single function name make_shake of from file ice_cream
-r=input('scoop size (Small/Large4): ')
+r=input('scoop size (Small/Large): ')
 t=[]
 ice_cream.add_topping(r,t)
