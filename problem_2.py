@@ -18,7 +18,7 @@ def get_tshirt(brand_name,size = None):
     b_size = ['m','l','x','xl','xxl']
     for i in brands:
         #checking the brand is available in list of name brands
-        if i == brand_name.isupper or brand_name.islower:
+        if i == brand_name:
             #if user given to check for size_____if size =True
             if size: 
                 for i in b_size:
@@ -40,6 +40,7 @@ def get_tshirt(brand_name,size = None):
             #if no command for size
             else:     
                 print("Hi",User_name, "Unfortunately the ",brand_name," brand you are looking for is not available in our store ")
+                break
 
 #taking brand name to be search 
 b_name = input('Search for Brand : ')
