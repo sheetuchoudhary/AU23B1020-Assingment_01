@@ -1,6 +1,6 @@
 ''' 
 Problem_1
-To Desgin a function with one parameter 
+Program for problem_1 
 '''
 #helper function
 def get_name():
